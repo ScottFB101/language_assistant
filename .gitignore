@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+
+# Bun
+.bun/
+.cache/
+
+# Build output
+build/
+dist/
+out/
+coverage/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+bun-debug.log*
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local / temp files
+*.local
+.tmp/
+.temp/
+
+# Python leftover from earlier project setup
+__pycache__/
+*.py[oc]
+wheels/
+*.egg-info
+.venv
