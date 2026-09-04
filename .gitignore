@@ -43,3 +43,4 @@ __pycache__/
 wheels/
 *.egg-info
 .venv
+lc-local-backend alias
